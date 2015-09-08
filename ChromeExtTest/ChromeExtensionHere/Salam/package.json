@@ -1,0 +1,11 @@
+{
+  "name": "Salam",
+  "version": "1.0.0",
+  "description": "peace!",
+  "main": "popup.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam <adam.chenwei@priceline.com>",
+  "license": "MIT"
+}

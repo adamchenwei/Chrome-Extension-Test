@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>JS Sandbox</title>
+	<script type='text/javascript' src='app.js'></script>
+</head>
+<body>
+	<a href='#' id='theButton'>Click n See!</a>
+	<script type='text/javascript'>
+		console.log('listener for click DONE!');
+		 document.getElementById('theButton').addEventListener('click',
+		    function() {
+		    	console.log('posted message');
+		  		window.postMessage({ type: 'FROM_PAGE', text: 'Hello from the webpage!' }, '*');
+		}, false);
+	</script>
+</body>
+</html>
