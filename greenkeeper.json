@@ -1,0 +1,17 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "ChromeExtTest/ChromeExtensionHere/Salam/bower_components/angular/package.json",
+        "ChromeExtTest/ChromeExtensionHere/Salam/bower_components/animate.css/package.json",
+        "ChromeExtTest/ChromeExtensionHere/Salam/package.json",
+        "ChromeExtTest/package.json",
+        "static/bootstrap4/4.0.0-alpha/package.json",
+        "static/d3-master/package.json",
+        "static/react-0.13.3/examples/basic-commonjs/package.json",
+        "static/react-0.13.3/examples/server-rendering/jsapp/package.json",
+        "static/react-0.13.3/examples/server-rendering/reactserver/package.json"
+      ]
+    }
+  }
+}
